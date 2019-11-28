@@ -22,8 +22,25 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "print (\"Twinkle, twinkle, little star,\")\n",
+    "print (\"      How I wonder what you are!\")\n",
+    "print (\"            Up above the world so high,\")\n",
+    "print (\"            Like a diamond in the sky.\")\n",
+    "print (\"Twinkle, twinkle, little star,\")\n",
+    "print (\"    How I wonder what you are!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [
     {
@@ -50,16 +67,18 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
-   "metadata": {},
+   "execution_count": 4,
+   "metadata": {
+    "scrolled": false
+   },
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "enter first value:4\n",
-      "enter second value:5\n",
-      "sum is: 9\n"
+      "enter first value:2\n",
+      "enter second value:3\n",
+      "sum is: 5\n"
      ]
     }
    ],
@@ -67,21 +86,12 @@
     "a = int (input(\"enter first value:\"))\n",
     "b = int (input(\"enter second value:\"))\n",
     "c=a+b\n",
-    "print(\"sum is:\",c)\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "import sys\n",
-    "print (\"Python Version\")\n",
-    "print (sys.version)"
+    "print(\"sum is:\",c)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [
     {
@@ -101,27 +111,30 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 6,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "enter radius of circle6\n",
-      "the area of the circle is:114.12\n"
+      "enter radius of circle4\n",
+      "the area of the circle is:50.72\n"
      ]
     }
    ],
    "source": [
     "a=float(input(\"enter radius of circle\"))\n",
     "b=3.17*a**2\n",
-    "print (\"the area of the circle is:\"+str(b))"
+    "print (\"the area of the circle is:\"+str(b))\n",
+    "\n"
    ]
   },
   {
-   "cell_type": "markdown",
+   "cell_type": "code",
+   "execution_count": null,
    "metadata": {},
+   "outputs": [],
    "source": []
   }
  ],
